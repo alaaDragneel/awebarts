@@ -1,0 +1,181 @@
+body{
+	background-color: #e7e7e7;
+	position: relative;
+	clear: both;
+	text-transform: capitalize;
+}
+.errorMassage{
+	float: left;
+	margin-left: 20px;
+	width: 200px;
+}
+html{background-color: #333}
+header{padding: 20px;}
+
+header img{
+	width: 20%;
+}
+
+header h2 {
+	font-family: cursive;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+#contents{
+	border-radius: 10px;
+	border: 1px solid #aaa;
+	padding: 20px;
+	min-height: 350px;
+	overflow: hidden;
+}
+
+aside{
+	width: 20%;
+	float: left;
+	min-height: 200px;
+	margin-right: 20px;
+}
+
+aside a{
+	display: block;
+	margin: 5px;
+}
+
+footer{
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer p {
+	font-family: veradana;
+	font-size: 16px;
+}
+
+.btn-danger{
+	border-radius: 5px;
+	padding: 9px 15px;
+}
+
+
+.btn-danger:hover{
+	text-decoration: none;
+}
+
+/*start log*/
+.register form{
+	margin: 5% 10%;
+}
+.register .form-group {
+	width: 450px;
+}
+#or{
+	position: absolute;
+	top: 27%;
+	left: 50%;
+	font-size: 50px;
+	color: #666;
+}
+.login form{
+	margin: 5% 10%;
+}
+.login .form-group {
+	width: 450px;
+}
+input[type="submit"]{
+	margin-bottom: 20px;
+}
+input[type="reset"]{
+	margin-right: 0;
+}
+/*end log*/
+
+/*main settings*/
+.main-settings h3 {
+	font-size: 35px;
+	color: #666;
+	text-align: center;
+}
+.main-settings form {
+	width: 450px;
+	color: #666;
+    	float: right;
+    	margin-right: 20%;
+	margin-top: 10px;
+}
+
+.main-settings form textarea {
+	resize: none;
+}
+
+/*main settings*/
+
+/*start sections*/
+.table-striped{
+	background-color: #eef;
+}
+.sectionTable {
+	width: 78%;
+	box-shadow: 5px 5px 30px #666;
+	margin-left: 20px
+}
+.sectionTable tr td .btn {
+	padding: 4px 10px;
+}
+.sectionTable .desc{
+	max-width: 151px;
+	word-wrap: break-word;
+}
+.sectionTable tr td img{
+	width: 200px;
+	height: 200px;
+	padding:2px;
+	background-color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 30px #666;
+}
+.sectionTable tr th{
+	background-color: #555;
+	color: #fff;
+}
+
+.displaySections .clearfix{
+	height: 0;
+}
+
+/*end sections*/
+.imgScan {
+	margin: 0px 89px;
+}
+.imgScan p{
+	float: left;
+	margin-right: 23px;
+}
+.imgScan form input[type='submit']{
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	position: fixed;
+	box-shadow: 5px 5px 50px #666;
+
+}
+.imgScan form input[type='checkbox']{
+	position: absolute;
+	margin-left: 20px;
+    	margin-top: 40px;
+
+}
+.imgScan img{
+	width: 200px;
+	margin-right: 10px;
+	height: 200px;
+	margin-top: 23px;
+	box-shadow: 5px 5px 30px #666;
+
+}
+
+.imgScan img:last-child{
+	margin-right: 0;
+}
